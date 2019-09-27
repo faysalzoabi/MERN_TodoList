@@ -1,6 +1,9 @@
 {
   "name": "MERN_TodoList",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3"
+  },
   "description": "Todolist",
   "main": "server.js",
   "scripts": {
