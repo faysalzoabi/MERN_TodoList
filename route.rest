@@ -1,0 +1,41 @@
+GET http://localhost:5000/api/items
+
+###
+POST http://localhost:5000/api/items
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFobWVkQGdtYWlsLmNvbSIsImlkIjoiNWQ4YjdjYzZhZjM2MDg3YTQ0ZTE4MTE3IiwiaWF0IjoxNTY5NDI3MjExLCJleHAiOjE1Njk0MzA4MTF9.RJUiqjRuk2GRZgbZQ5viy2leDAzxqXMOFieStjE0Hos
+
+{
+    "name":"jumping to sky",
+    "isCompleted":false
+}
+
+###
+PATCH http://localhost:5000/api/items/5d8e32cad1f65e8de4f79f4d
+Content-Type: application/json
+
+{
+    "isCompleted":true
+}
+
+###
+DELETE http://localhost:5000/api/items/5d8e32cad1f65e8de4f79f4d
+
+###
+POST http://localhost:5000/api/users/signup
+Content-Type: application/json
+
+{
+    "name":"ahmed",
+    "email":"ahmed@gmail.com",
+    "password":"12454"
+}
+
+###
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+    "email":"ahmed@gmail.com",
+    "password":"12454"
+}
