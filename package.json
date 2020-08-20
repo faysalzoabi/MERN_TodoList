@@ -18,7 +18,7 @@
   "author": "Faysal Zoubi",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "concurrently": "^4.1.2",
     "dotenv": "^8.1.0",
